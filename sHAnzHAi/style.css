@@ -1,0 +1,519 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+h1{color:#0768C5 ;
+    font-family:Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 95px;
+    
+}
+h1 span {background-color: #0768C5;
+color: black;
+display: inline-block;
+height: 31px;
+width: 31px;
+padding-left: 2px;
+padding-bottom: 2px;
+margin: 3px;
+border-radius: 10%;}
+
+#main-container {
+    background-color:black ;
+    width:500px ;
+    height: 800px;
+    margin: auto;
+    position:fixed;
+    top: 69px}
+ #headline-container {
+    background-color: black;
+    font-size: 26px;
+    font-weight: lighter;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 95px;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    margin: 0;
+    
+ }    
+ .nav-item {
+
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:x-large;
+    width: 380px;
+    height: 40px;
+    background-color: rgb(61, 59, 59);
+    text-align: left;
+    display: block;
+    margin-left: 95px;
+    margin-bottom: 20px;
+    padding-top: 1%;
+    padding-left: 16px;
+    padding-bottom: 7%;
+
+ }
+
+ #one:hover {background-color: rgb(29, 28, 28);}
+
+ p {color: white;}
+ #a1 {color: rgb(61, 59, 59);}
+ #img1 {position: fixed;
+      top:145px;
+    left:700px;
+    width: 500px;
+    height: 500px;
+
+    }
+
+ #headline-container-2 {background-color: rgb(29, 28, 28);
+    width: 100%;
+    height: 70px;
+    margin:0;
+    padding-bottom: 10px;
+    position: fixed;
+}   
+#join {position: fixed;
+    left: 550px;
+    top:18px;
+    font-family: Arial, Helvetica, sans-serif;
+     font-size: larger;}
+#sign-in {position: fixed;
+          top:18px;
+          left: 350px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: larger;
+          color: rgb(96, 91, 91);
+          border: 1px solid;
+          border-radius: 10%;
+          padding-left: 2px;
+          padding-right: 2px;
+}
+
+#sign-in-container {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    left: 240px;
+    top:80px;
+    background-color: rgb(29, 28, 28);
+    height: 520px;
+    width: 300px;
+    
+    
+}
+#sign-head { margin-left: 15px;
+             margin-top: 20px;}
+.nav-item-2 {margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 18px;
+    border: 1px solid rgb(61, 59, 59);
+    padding-left: 3px;
+    width:auto ;
+    height: 112px;
+} 
+
+#sign-click {background-color: #0768C5;
+    height: 35px;
+    width: 70px;
+    position: fixed;
+    left: 342px;
+    margin-top: 35px;
+    border-radius: 10%;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    padding-top: -1px;
+}
+.fill {background-color: rgb(96, 91, 91);
+height: 35px;
+width: 260px;
+padding-top: 3px;
+padding-bottom: 5px;
+padding-left: 2px;
+}
+.filler {color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#sign-click:hover {background-color:#042e54}
+#note {position: fixed;
+    left:270px; top: 518px;
+    font-size:medium
+}
+#asterik {color: rgb(96, 91, 91);
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+#img2 { width: 75%;
+       height: 20%;
+       margin-top: 280px;
+       margin-left: 160px;}
+#a2 {text-decoration-color: #0768C5;
+     color: white;}       
+   
+
+     
+#img3 {width: 100%;
+    height: 7%;
+margin:0 ;
+position: fixed;
+top: -7px}    
+#img4 {width: 26%;
+position: fixed;
+top:70px}
+
+#network-container {width: 1000px;
+height: 1800px;
+margin-left: 408px;
+margin-top: 80px;
+border-radius: 2%;
+background-color:#1B1F23 ;
+position:static;}
+#ppl-headline {color: #A2A4A5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 4px;
+ padding-left: 220px;
+  }
+
+.navi-item {
+    
+    display:inline-block;
+    width: 29%;
+    height: 340px;
+    border: rgb(61, 59, 59) solid ;
+    border-radius: 3%;
+    background-color: #1B1F23;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-right: 5px;
+    overflow: auto;
+    position: static;
+}
+#nav-img {width: 100%;
+height: 190px;
+margin-left: 0px;
+margin-top: 0px;}
+.navi-h3 {font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 0;
+    position: static;
+    top:-10px
+} 
+.navi-p {font-family: Arial, Helvetica, sans-serif;font-size: medium; color: rgb(192, 190, 190);
+ text-align: center;}
+.connect { margin-left: 19%; 
+    margin-bottom: 1PX;
+    color:#0768C5;
+     border: #0768C5 solid 1px; border-radius: 4%;
+ width: 180px; height: 40px; 
+ font-family: Arial, Helvetica, sans-serif; font-size: 25PX;
+ position: static;
+}
+ .connect h5 {
+    text-align: center;
+    position: relative;
+    top: -26px;
+ }
+ #load-more { background-color:#0768C5 ;
+    border: rgb(61, 59, 59) 1px solid;
+ width: 250px;
+ height: 45px;
+ margin-left: 375px;
+ margin-top: 60px;}
+ #load-more h3{color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+position: relative;
+top: -6px;}
+#load-more a {text-decoration: none;}
+#load-more:hover{background-color:#042e54;}
+
+#body-2 {background-color: bisque;
+margin: 0;
+padding: 0;}
+
+#headline-container-3 {background-color: #f0591e;
+    width: 100%;
+    height: 70px;
+    margin:0;
+    padding-bottom:0;
+    position: fixed;
+    top:-10px
+    
+}   
+#kid-h1 {color: bisque;}
+#kid-h1-2 {color: bisque; font-family: "Schoolbell", cursive;
+position: relative;
+left: 220px;}
+#kid-span{color:#f0591e;
+ background-color: bisque;}
+#img-5 {width: 22%;
+position: fixed;
+top:370px;
+left:11px}
+#img-6 {width: 25%;
+position: fixed;
+left:-3px;
+top: 90px;}
+#network-container-2 {/*
+    display: flex; 
+    margin-left: 25%;
+margin-top: 80px;
+border-radius: 2%;
+background-color:bisque ;
+position:static;
+border: green solid 8px; */
+}
+#navi-wrapper-2{
+    display: flex;
+     margin-left: 30%;
+     flex-wrap: wrap;
+margin-top: 80px;
+border-radius: 2%;
+background-color:bisque ;
+position:static;
+border: green solid 8px;
+}
+#ppl-headline-2 {color:green;
+    font-family: "Schoolbell", cursive;
+    font-size: 30px;
+    padding-top: 4px;
+  text-align: center;
+  position: relative;
+  }
+
+.navi-item-2 {
+    display: flex;
+    display:inline-block;
+    width: 29%;
+    height: 380px;
+    border: green dashed 5px ;
+    border-radius: 3%;
+    background-color:bisque;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2px;
+    overflow: auto;
+    position: static;
+}
+.navi-h3-2 {font-family:"Schoolbell", cursive;
+    color: black;
+    text-align: center;
+    padding-top: 0;
+    position: static;
+    font-size: 22px;
+} 
+.navi-p-2 {font-family:"Schoolbell", cursive; font-size: 16px; color: black;
+ text-align: center;
+}
+.connect-2 { margin-left: 19%; 
+    margin-bottom: 0;
+    color:bisque;
+     border-radius: 4%;
+ width: 180px; height: 40px; 
+ font-family:"Schoolbell", cursive; font-size: 25PX;
+ position: static;
+ top:-70px;
+ background-color: green;
+}
+ .connect-2 h5 {
+    
+    text-align: center;
+    position: static;
+    top: -26px;
+ }
+.navi-img {width: 90%;
+height: 190px;
+margin-left: 12.5px;
+margin-top: 8px;}
+ 
+#item-5 {position: sticky;
+top:10px}
+#item-5:hover {background-color:rgb(186, 159, 127);}
+#play-h5:hover {background-color: rgb(2, 90, 2);}
+#play-a {text-decoration: none;
+color: bisque;}
+
+#container {display: flex;
+flex-wrap: wrap;
+margin-top: 8%;}
+.item {margin-left: 30%;
+    margin-top: 3px;
+    width: 62%;
+height: fit-content;
+border: green solid 5px;
+border-radius: 2%;}
+#fmc-h2 {font-family: "Schoolbell", cursive;
+    font-size: 28px;
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;}
+.item h2 {font-family: "Schoolbell", cursive;
+    font-size: 28px;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;}
+.item img {width: 100%;
+height: 260px;}    
+#pwm {background-color: green;font-family:"Schoolbell", cursive; font-size: 25PX;
+    color: bisque;
+    width: 180px;
+    text-align: center;
+    height: 40px;
+    border-radius: 2%;
+    position: relative; top:-60px; left: 190px;
+}
+#pwm a {text-decoration: none;color: bisque;}
+#pwm:hover {background-color: rgb(2, 90, 2);}
+#act {display: flex;
+flex-wrap: wrap;
+border: green solid 2px;
+border-radius: 2%;
+width: 94%;
+margin-left: 2.5%;}
+#act h3 {font-family: "Schoolbell", cursive;
+    font-size: 22px;
+    color: black;
+    padding-left: 12px;
+    padding-right: 10px;
+color: black;}
+#act h5 {font-family: "Schoolbell", cursive;
+    font-size: 18px;
+    color: black;
+    padding-left: 12px;
+    padding-right: 10px;}    
+#act p {font-family: "Schoolbell", cursive;
+    font-size: 18px;
+    color: black;
+    padding-left: 12px;
+    padding-right: 10px;}  
+#draw{ width: 90%;
+padding-left: 28px;
+padding-bottom: 5px;} 
+#postpp {width:55px; height:55px; margin-top: 10px;margin-left: 10px;}
+#comments {color: green; text-decoration: underline;
+font-size: 24px;}
+.item p {font-family: "Schoolbell", cursive;
+    font-size: 22px;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;}
+.exp-box {width: 96%;
+    height:min-content;
+    margin-top: 5px;
+    margin-left: 2%;
+    margin-bottom: 5px;
+    border: green solid 2px;}
+.exp-box h3 {font-family: "Schoolbell", cursive;
+    font-size: 20px;
+    color: black;
+    padding-left: 12px;
+    padding-right: 10px;
+position: static;top: -80px; left: 90px;}
+.exp-box p {font-family: "Schoolbell", cursive;
+    font-size: 20px;
+    color: black;
+    padding-left: 12px;
+    padding-right: 10px;
+position: static;
+top:-40px}
+.exp-box img {width: 80px; height: 80px;padding-left: 10px; padding-top: 10px;}
+.item h5 {font-family: "Schoolbell", cursive;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;}
+.item h6 {font-family: "Schoolbell", cursive;
+    font-size: 16px;
+    color: rgb(45, 44, 44);
+    padding-left: 20px;}
+#sg {background-color: bisque;color:green; font-family:"Schoolbell", cursive; font-size: 50px ;
+width: 400px;height: 100px; border-radius: 5%;
+text-align: center; padding-top: 20px;
+margin-left: 33%;
+margin-top: 10px;
+position: relative;
+top:-110px}
+#a{height: 200px; position: relative; left:80px; top: 60px}
+#b{height:200px; position: relative; left: 400px; top:80px}
+#c{height: 200px; position: relative; top: 520px}
+#d{height: 200px; position: relative; left:240px; top: 490px; }
+#e{height: 200px; position: relative; top:200px;}
+#f{height: 200px; position: relative; top: 60px;}
+#g{height: 200px;position: relative;left: 90px; top: 100px;}
+#h{height: 200px; position:relative; top: 300px; right: 100px}
+#sg :hover {background-color: rgb(186, 159, 127);}
+#sg a {text-decoration: none; color: green;}
+#chat-wrap{display: flex;
+flex-wrap: wrap;
+border: green solid 5px;
+border-radius: 2%;
+margin-left: 25%;
+margin-top: 80px;}
+#contact {border-right: green solid 2px;height: auto; flex-direction: column;}
+#clickin {background-color: rgb(186, 159, 127); height: 90px;}
+#messaging {border-bottom: green solid 2px;
+font-family:"Schoolbell", cursive ; font-size: 24px;
+padding-left: 3px;
+width: 200px;
+;}
+#contact img {width: 50px; height: 50px; padding-top: 20px;padding-left: 3px;}
+#contact h3 {font-family:"Schoolbell", cursive ; font-size: 24px; padding-left: 3px;
+position: relative; left: 58px;top:-70px}
+#name {font-family:"Schoolbell", cursive ; font-size: 24px; 
+    position: absolute; left: 577px;top: 103px;
+    border-bottom: green solid 2px; width: 882px;
+padding-left: 5px}
+#chatbox img {width: 80px; height: 80px; padding-top: 40px; padding-left: 10px;}
+#chatbox h1 {color: black; font-family:"Schoolbell", cursive ; font-size: 24px; padding-left: 24px;
+position:relative; top: -65px; text-decoration:underline;}
+#chatbox h6 {color: #1B1F23; font-family:"Schoolbell", cursive ; font-size: 12px; padding-left: 24px; position: relative; top: -120px; left: 250px}
+#chatbox p {font-family:"Schoolbell", cursive ; font-size: 20px; padding-left: 125px; color: black;
+position: relative; top: -90px;}
+#chatbox a {text-decoration: none; color:black; text-decoration: underline ; font-family:"Schoolbell", cursive ; font-size: 20px; 
+position: relative; top: -80px; left: 125px;}
+#chatbox a:hover {background-color: rgb(186, 159, 127);}
+#convo {position: relative; top:-60px}
+#write {background-color: rgb(186, 159, 127); border-top: green solid 2px; width: 886px; color: black; font-family:"Schoolbell", cursive ;font-size: 22px; position: relative; bottom: 80px; padding-top: 10px;}
+
+#comment-sect {display: flex; flex-wrap: wrap;
+background-color: rgb(186, 159, 127);
+border: green solid 5px;
+border-radius: 2%;
+height: 600px; width:600px;
+position: fixed; left: 600px; top:60px}
+#comment-sect a {text-decoration: none; color: green;}
+#comment-sect h2 {font-family:"Schoolbell", cursive ; font-size: 28px; color: green; padding-left: 10px; padding-right: 10px;}
+.comment-box {display: flex;  border-bottom: green solid 1px; width: 100%;}
+.comment-img {width: 50px; height: 50px; margin-left: 10px; margin-top: 10px;}
+.comment-name {font-family:"Schoolbell", cursive ; font-size: 22px; color: black; padding-left: 10px; text-decoration: underline;}
+.comment-text {font-family:"Schoolbell", cursive ; font-size: 20px; color: black; padding-left: 10px; padding-right: 10px; margin-top: 5px;}
+
+#dress-container {display: flex; height: min-content; justify-content: center; position: relative; top: -140px; left: 140px;
+}
+#clothesoff {border: green dashed 5px; width:250px;height: 400px; margin-left: 580px; margin-top: 200px;}
+#clothesoff img {width: 250px; height: 400px;position: relative;bottom: -0px;}
+#clotheson {border: green solid 5px;border-radius: 2%; margin-left: 30px; margin-top: 200px;
+display: flex; justify-content: center;height: 400px; ;}
+#clotheson img {width: 200px; height: 350px; border-right: green solid 3px;}
+#clotheson img :hover {background-color: #f0591e;}
+#clotheson p {font-family:"Schoolbell", cursive ; font-size: 20px; color: black; background-color: rgb(186, 159, 127);
+     position: relative; top: 330px; right: 203px; text-align: center;
+    width: 200px; height: 50px;
+text-align: center;}
+
+#instruction {font-family:"Schoolbell", cursive ; font-size: 20px; color: black; margin-left: 400px; margin-top: 75px;
+border: green solid 5px; width: 900px; border-radius: 2%;
+text-align: center;
+background-color: rgb(186, 159, 127);}
+.select-container {display: flex; justify-content: center; position: relative;
+    top:551px; right: 616px;
+}
+.column {display: flex; width: 200px; height:50px; 
+font-family:"Schoolbell", cursive ; font-size: 20px;
+background-color: rgb(186, 159, 127);align-items: center; justify-content: center;
+border: green solid 2px;}
+#sl1:hover {background-color:rgb(169, 11, 11);}
+#sl2:hover {background-color: green}
+#sl3:hover {background-color: rgb(169, 11, 11)}
+.column a {text-decoration: none; color: black;}
