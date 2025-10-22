@@ -5,11 +5,12 @@ below you see my projects:)
 
 * [my-first-website](my-first-website)
 * [a-story](a-story)
+![alt text](<a-story/images/matcha 1.png>)
+![alt text](<a-story/images/matcha 2.png>)
+![alt text](<a-story/images/matcha 3.png>)
 * [tutorial](tutorial)
-* [tutorial2](tutorial2)
-* [css-tests](css-tests)
-* [css-layout1](css-layout1)
-* [css-layout2](css-layout-2)
-* [week4-in-class](week4-in-class)
+![alt text](<Screenshot 2025-10-22 at 17.55.50.png>)
+
 * [sHanzHai](sHAnzHAi)
+![alt text](<Screenshot 2025-10-22 at 17.57.35.png>)
 
