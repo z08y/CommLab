@@ -5,8 +5,6 @@ below you see my projects:)
 
 * [my-first-website](my-first-website)
 * [a-story](a-story)
-![alt text](<a-story/images/matcha 1.png>)
-![alt text](<a-story/images/matcha 2.png>)
 ![alt text](<a-story/images/matcha 3.png>)
 * [tutorial](tutorial)
 ![alt text](<Screenshot 2025-10-22 at 17.55.50.png>)
