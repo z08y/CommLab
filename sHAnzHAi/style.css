@@ -372,6 +372,7 @@ border: green solid 2px;
 border-radius: 2%;
 width: 94%;
 margin-left: 2.5%;}
+#showall {text-decoration: underline; color: black;}
 #act h3 {font-family: "Schoolbell", cursive;
     font-size: 22px;
     color: black;
@@ -392,7 +393,7 @@ color: black;}
 padding-left: 28px;
 padding-bottom: 5px;} 
 #postpp {width:55px; height:55px; margin-top: 10px;margin-left: 10px;}
-#comments {color: green; text-decoration: underline;
+#comments {color: green; text-decoration: none;
 font-size: 24px;}
 .item p {font-family: "Schoolbell", cursive;
     font-size: 22px;
@@ -517,3 +518,16 @@ border: green solid 2px;}
 #sl2:hover {background-color: green}
 #sl3:hover {background-color: rgb(169, 11, 11)}
 .column a {text-decoration: none; color: black;}
+
+.item-2 { margin-left: 400px; 
+    margin-top: 80px;
+    border: green solid 5px;
+    border-radius: 2%;}
+.item-2 h2 {font-family: "Schoolbell", cursive;
+    font-size: 28px;
+    color: green;
+    padding-left: 10px;
+    padding-right: 10px;}
+    .item-2 a {text-decoration: none; color: green;}    
+    #comments-2 {color: green; text-decoration: underline;
+    font-size: 24px;}
