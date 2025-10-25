@@ -8,7 +8,7 @@
 *a shanzhai LinkedIn designed for kids to make friends they can play pretend with*
 <br>
 
-KidIn is a parody of LinkedIn, but instead of networking for jobs, you're looking for friends to play pretend with as a kindergarten kid. The idea came from the parellel between childhood pretend play and adult professionalism. By twisting the familiar interface of LinkedIn into something childish and absurd, this website shows that just as children assign themselves roles like teachers and doctors, adults continue this performance through résumés, endorsements and corporate language. Finding a job somehow becomes finding another kid to play pretend with, because maybe workplace is just a continuation of the playground, and professionalism is just another version of play--with better costumes and fancier props.
+KidIn is a parody of LinkedIn, but instead of networking for jobs, you're looking for friends to play pretend with as a kindergarten kid. The idea came from the parallel between childhood pretend play and adult professionalism. By twisting the familiar interface of LinkedIn into something childish and absurd, this website shows that just as children assign themselves roles like teachers and doctors, adults continue this performance through résumés, endorsements and corporate language. Finding a job somehow becomes finding another kid to play pretend with, because maybe workplace is just a continuation of the playground, and professionalism is just another version of play--with better costumes and fancier props.
 
 --zoey
 
