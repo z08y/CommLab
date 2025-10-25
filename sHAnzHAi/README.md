@@ -12,6 +12,6 @@ KidIn is a parody of LinkedIn, but instead of networking for jobs, you're lookin
 
 --zoey
 
-![alt text](<Screenshot 2025-10-23 at 17.41.10.png>)
-![alt text](<Screenshot 2025-10-24 at 14.44.54.png>)
-![alt text](<Screenshot 2025-10-23 at 17.40.49.png>)
+
+![alt text](<Screenshot 2025-10-25 at 23.23.40.png>)
+*playtime never ends*

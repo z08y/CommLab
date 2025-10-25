@@ -165,7 +165,8 @@ margin-left: 408px;
 margin-top: 80px;
 border-radius: 2%;
 background-color:#1B1F23 ;
-position:static;}
+position:static;
+}
 #ppl-headline {color: #A2A4A5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -174,7 +175,7 @@ position:static;}
   }
 
 .navi-item {
-    
+   
     display:inline-block;
     width: 29%;
     height: 340px;
@@ -185,21 +186,21 @@ position:static;}
     margin-bottom: 5px;
     margin-left: 25px;
     margin-right: 5px;
-    overflow: auto;
+    /*overflow: auto;*/
     position: static;
 }
-#nav-img {width: 100%;
+.navi-item img {width: 100%;
 height: 190px;
 margin-left: 0px;
 margin-top: 0px;}
-.navi-h3 {font-family: Arial, Helvetica, sans-serif;
+.navi-item h3 {font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
     padding-top: 0;
     position: static;
     top:-10px
 } 
-.navi-p {font-family: Arial, Helvetica, sans-serif;font-size: medium; color: rgb(192, 190, 190);
+.navi-item p {font-family: Arial, Helvetica, sans-serif;font-size: medium; color: rgb(192, 190, 190);
  text-align: center;}
 .connect { margin-left: 19%; 
     margin-bottom: 1PX;
@@ -283,7 +284,7 @@ border: green solid 8px;
   }
 
 .navi-item-2 {
-    display: flex;
+    
     display:inline-block;
     width: 29%;
     height: 380px;
@@ -449,9 +450,13 @@ top:-110px}
 flex-wrap: wrap;
 border: green solid 5px;
 border-radius: 2%;
-margin-left: 25%;
+margin-left: 25% ;
 margin-top: 80px;}
-#contact {border-right: green solid 2px;height: auto; flex-direction: column;}
+#contact {border-right: green solid 2px;
+    height: auto; 
+    flex-direction: column; 
+    display: flex;
+}
 #clickin {background-color: rgb(186, 159, 127); height: 90px;}
 #messaging {border-bottom: green solid 2px;
 font-family:"Schoolbell", cursive ; font-size: 24px;
@@ -461,10 +466,12 @@ width: 200px;
 #contact img {width: 50px; height: 50px; padding-top: 20px;padding-left: 3px;}
 #contact h3 {font-family:"Schoolbell", cursive ; font-size: 24px; padding-left: 3px;
 position: relative; left: 58px;top:-70px}
+
 #name {font-family:"Schoolbell", cursive ; font-size: 24px; 
     position: absolute; left: 577px;top: 103px;
     border-bottom: green solid 2px; width: 882px;
 padding-left: 5px}
+
 #chatbox img {width: 80px; height: 80px; padding-top: 40px; padding-left: 10px;}
 #chatbox h1 {color: black; font-family:"Schoolbell", cursive ; font-size: 24px; padding-left: 24px;
 position:relative; top: -65px; text-decoration:underline;}
@@ -531,3 +538,17 @@ border: green solid 2px;}
     .item-2 a {text-decoration: none; color: green;}    
     #comments-2 {color: green; text-decoration: underline;
     font-size: 24px;}
+
+#time-body {height: 6000px;
+background:linear-gradient(to bottom, black, #1B1F23, bisque);}    
+.time-img {width: 400px; height: 200px; margin-left: 100px; margin-top: 700px;}
+
+#time2 {position: relative; top:2000px; left: -200px;}
+#time3 {position: relative; top:1100px; left:600px}
+#time4 {position: relative; top:4000px; left:-300px;}
+#time-body a {position: relative; top:3900px; left: -250px;
+font-family:"Schoolbell", cursive ;
+font-size: 80px;
+text-decoration: none;
+color: black;}
+#time-body a:hover {background-color: rgb(186, 159, 127);}
