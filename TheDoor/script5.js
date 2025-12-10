@@ -13,8 +13,7 @@ text3.style.display="none"
 let clicktext=document.querySelector(".clicktext")
 
 
-let doorUsed = false;
-let doorShown = false;
+
 doorFrame1.style.opacity = 1;
 
 
@@ -33,8 +32,7 @@ function doorClick() {
 doorFrame1.addEventListener("click", doorClick);
 
 function originalMouseOut() {
-   if (doorShown) return;
-  if (doorUsed) return;
+  
   insideBlock1.style.opacity = 0;
   doorFrame1.style.opacity = 0;
   text1.style.display="block"
@@ -46,7 +44,7 @@ function originalMouseOut() {
   clicktext.addEventListener("click", showDoor);
 }
 function showDoor(){
-  doorShown=true;
+   doorFrame1.removeEventListener("mouseout", originalMouseOut);
   text1.style.opacity=0;
   text1.style.display="none";
   document.querySelectorAll(".doorline").forEach(function(line) {
@@ -63,7 +61,7 @@ function showDoor(){
 }
 doorFrame1.addEventListener("mouseout", originalMouseOut);
 function firstClick() {
-  doorUsed = true;
+ 
   createDoor();
   doormusic.currentTime = 0;
         doormusic.play();
@@ -146,7 +144,7 @@ doormusic.currentTime = 0;
   boredDoor.style.height = Math.random() * 100 + 120 + "px";
   boredDoor.onclick = createDoor;
   document.body.append(boredDoor);doormusic.currentTime = 0;
-        doormusic.play();doormusic.loop=true;
+        doormusic.play();doormusic.loop=true; doormusic.playbackRate=0.5
   }
 
   if (boredCount>= 40){
@@ -160,10 +158,8 @@ doormusic.currentTime = 0;
     text2.style.opacity = 1;
   }, 3000);
 
-     let text2clicked=false;
      text2.addEventListener("click", function(){
-      if (text2clicked) return;
-      text2Hovered=true;
+     
       text2.classList.add("sandfade");
       text2.addEventListener("animationend", function(){
          text2.style.display="none";

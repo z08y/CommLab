@@ -8,7 +8,7 @@ function getScrollPercentage() {
 let doorFrame = document.querySelector(".doorframe");
 let insideBlock = document.querySelector(".inside"); 
 let doormusic = document.querySelector("#doormusic");
-
+doorFrame.style.cursor = "default"; 
 
 
 const wakeUpLink = document.createElement("a");
@@ -17,7 +17,7 @@ wakeUpLink.className = "next-link";
 wakeUpLink.textContent = "wake up"; 
 document.body.appendChild(wakeUpLink);
 
-let clickable = false; 
+
 
 window.addEventListener("scroll", function() {
   let percentage = getScrollPercentage();
@@ -25,25 +25,28 @@ window.addEventListener("scroll", function() {
 
   if (percentage < 89) {
     doorFrame.style.opacity = percentage / 100;
+    doorFrame.style.pointerEvents = "none";
     document.querySelector("#body2p").style.color = "#524171";
-    doorFrame.style.cursor = "none";
+   doorFrame.style.cursor = "none";
     insideBlock.style.opacity = 0;
     insideBlock.style.pointerEvents = "none";
-    clickable = false; 
+   
      doormusic.pause();
   doormusic.currentTime = 0;
   } else {
     doorFrame.style.opacity = 1;
     doorFrame.style.cursor = "pointer";
+    doorFrame.style.pointerEvents = "auto"; 
     document.querySelector("#body2p").style.opacity = 0;
     document.body.style.backgroundColor = "black";
-    clickable = true; 
+   
   }
 });
 
 doorFrame.addEventListener("click", function() {
-  if (clickable != true) return; 
-
+ 
+ let percentage = getScrollPercentage();
+  if (percentage < 89) return; 
   doormusic.currentTime = 0;
   doormusic.play();
 
