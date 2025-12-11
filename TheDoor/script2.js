@@ -60,6 +60,7 @@ doorFrame.addEventListener("mouseout", function() {
   insideBlock.style.opacity = 0;
   doormusic.pause();
   doormusic.currentTime = 0;
+  
 
   if (doorFrame.classList.contains("open")) {
     wakeUpLink.style.display = "block";
